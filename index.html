@@ -29,6 +29,36 @@
         .font-lato{
             font-family: 'Lato', sans-serif;
         }
+        /* slider  start */
+        .first{
+            background-image: url('./images/banner1.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 600px;
+            background-size: cover;
+        }
+        .second{
+            background-image: url('./images/banner2.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 600px;
+            background-size: cover;
+        }
+        .third{
+            background-image: url('./images/banner3.png');          
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 600px;
+            background-size: cover;
+        }
+        .fourth{
+            background-image: url('./images/banner4.png');         
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 600px;
+            background-size: cover;
+        }
+      /* slider end */
       </style>
 </head>
 <body>
@@ -55,6 +85,100 @@
             </div>
         </nav>
         <!-- nav section end  -->
+        <!-- banner section start  -->
+        <section>
+            <div class="carousel w-full mt-14 relative">
+                <!-- first slider -->
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <div class="first container mx-auto flex pt-20 justify-center">
+                            <div>
+                                <h1 class="text-7xl text-center text-white font-extrabold mb-6">Exotic tastes at your <br> doorstep</h1>
+                                <p class="text-xl text-center font-medium text-white pb-8">We supply highly quality organic products</p>
+                                <div class="flex items-center justify-center">
+                                <button class=" px-8 py-5 text-white text-base rounded-lg bg-color">Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-28 right-28 top-1/2">
+                            <a href="#slide4" class="btn btn-circle">❮</a> 
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <!-- second slider -->
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <div class="second container mx-auto flex pt-20 justify-center">
+                            <div>
+                                <h1 class="text-7xl text-center text-white font-extrabold mb-6">Exotic tastes at your <br> doorstep</h1>
+                                <p class="text-xl text-center font-medium text-white pb-8">We supply highly quality organic products</p>
+                                <div class="flex items-center justify-center">
+                                <button class="px-8 py-5 text-white text-base rounded-lg bg-color">Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-28 right-28 top-1/2">
+                            <a href="#slide1" class="btn btn-circle">❮</a> 
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <!-- third slider -->
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <div class="third container mx-auto flex pt-20 justify-center">
+                            <div>
+                                <h1 class="text-7xl text-center text-white font-extrabold mb-6">Exotic tastes at your <br> doorstep</h1>
+                                <p class="text-xl text-center font-medium text-white pb-8">We supply highly quality organic products</p>
+                                <div class="flex items-center justify-center">
+                                <button class="px-8 py-5 text-white text-base rounded-lg bg-color">Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-28 right-28 top-1/2">
+                            <a href="#slide2" class="btn btn-circle">❮</a> 
+                            <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <!-- fourth slider -->
+                    <div id="slide4" class="carousel-item relative w-full">
+                        <div class="fourth container mx-auto flex pt-20 justify-center">
+                            <div>
+                                <h1 class="text-7xl text-center text-white font-extrabold mb-6">Exotic tastes at your <br> doorstep</h1>
+                                <p class="text-xl text-center font-medium text-white pb-8">We supply highly quality organic products</p>
+                                <div class="flex items-center justify-center">
+                                <button class="px-8 py-5 text-white text-base rounded-lg bg-color">Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-28 right-28 top-1/2">
+                            <a href="#slide3" class="btn btn-circle">❮</a> 
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+            
+            </div>
+            <!-- extra section start  -->
+            <div class="mx-48 bg-[#FFFFFF] rounded-lg flex lg:gap-[90px] px-12 py-8 absolute -bottom-1 ">
+                <div class="flex flex-col justify-center items-center space-y-4">
+                    <img src="images/fruit1.png" alt="">
+                    <p class="text-base text-primary-rgb-text/[0.60]">Red Grape</p>
+                </div>
+                <div class="flex flex-col justify-center items-center space-y-4">
+                    <img src="images/fruit2.png" alt="">
+                    <p class="text-base text-primary-rgb-text/[0.60]">Orange</p>
+                </div>
+                <div class="flex flex-col justify-center items-center space-y-4">
+                    <img src="images/fruit3.png" alt="">
+                    <p class="text-base text-primary-rgb-text/[0.60]">Mango</p>
+                </div>
+                <div class="flex flex-col justify-center items-center space-y-4">
+                    <img src="images/fruit4.png" alt="">
+                    <p class="text-base text-primary-rgb-text/[0.60]">Strawberry</p>
+                </div>
+                <div class="flex flex-col justify-center items-center space-y-4">
+                    <img src="images/fruit5.png" alt="">
+                    <p class="text-base text-primary-rgb-text/[0.60]">Pomegranate</p>
+                </div>
+            </div>
+            <!-- extra section end  -->
+        <!-- banner section end  -->
     </header>
     <main class="container mx-auto font-lato">
         <section>
